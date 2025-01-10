@@ -1,10 +1,15 @@
-# AutoDeals: Used Cars Analysis
+# Used Cars Analysis
+
 ## Project Background
 
 The used car market is rapidly expanding, with buyers and sellers relying on data to make informed decisions. This project aims to analyze a dataset of used cars to uncover insights, trends, and patterns that can benefit potential buyers, sellers, and dealerships. By leveraging data analytics techniques, we strive to identify key factors affecting car prices, fuel efficiency, and overall performance.
 
+<div style="text-align:center">
+   <img src="assets/banner.jpeg" />
+</div>
 
 ## Access to Resources
+
 - **Dataset:** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
 - **Python:** Jupyter Notebook for coding and visualizing analysis
 - **Excel:** For quick data exploration and validation
@@ -12,21 +17,35 @@ The used car market is rapidly expanding, with buyers and sellers relying on dat
 
 All necessary resources are included in the repository to reproduce the analysis.
 
-
 ## Data Overview
+
+
 The dataset contains information about used cars, including but not limited to:
 
-- Features:
-  - Price: The selling price of the car
-  - Mileage (kmpl and km/kg): Fuel efficiency in kilometers per liter (petrol/diesel) or kilometers per kilogram (CNG/LPG)
-  - Engine Size (CC): Engine capacity in cubic centimeters
-  - Power (BHP): Horsepower output of the car
-  - Car Age: Derived from the year of manufacture
-  - Kilometers Driven: Total distance the car has been driven
-  - Fuel Type: Type of fuel used (Petrol, Diesel, CNG, etc.)
-  - Transmission: Type of transmission (Manual or Automatic)
-  - Seats: Number of seats available in the car
-  - Size: Over 6,019 rows with complete and incomplete data for analysis.
+> Contains over 6,019 rows with complete and incomplete data for analysis.
+
+| **Feature**              | **Description**                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| **Car ID**               | Unique identifier assigned to each car. (Feature Engineered)                                  |
+| **Name**                 | Name of the car.                                                                              |
+| **Location**             | Location where the car is available.                                                         |
+| **Year**                 | Year of manufacture of the car (used to calculate car age).                                   |
+| **Car Age**              | Age of the car derived from the year of manufacture. (Feature Engineered)                     |
+| **Owner Type**           | Ownership history of the car (e.g., First, Second, etc.).                                     |
+| **Fuel Type**            | Type of fuel used in the car (e.g., Petrol, Diesel, CNG, LPG, Electric).                      |
+| **Transmission**         | Type of transmission (Manual or Automatic).                                                  |
+| **Seats**                | Number of seats available in the car.                                                        |
+| **Car Type**             | Classification of cars based on features (e.g., Sedan, SUV, Hatchback). (Feature Engineered)  |
+| **Price**                | Selling price of the car (target variable).                                                  |
+| **Price per KM**         | Ratio of price to kilometers driven, representing cost efficiency. (Feature Engineered)       |
+| **Kilometers Driven**    | Total distance the car has been driven.                                                       |
+| **Mileage (kmpl)**       | Fuel efficiency in kilometers per liter for Petrol/Diesel cars. (Feature Engineered)          |
+| **Mileage (km/kg)**      | Fuel efficiency in kilometers per kilogram for CNG/LPG cars. (Feature Engineered)             |
+| **Mileage (kmpl/km/kg)** | Fuel efficiency in kilometers per liter (Petrol/Diesel) or kilometers per kilogram (CNG/LPG). |
+| **Fuel Efficiency**      | Normalized mileage combining `Mileage (kmpl)` and `Mileage (km/kg)` for consistent analysis. (Feature Engineered) |
+| **Engine Size (CC)**     | Engine capacity in cubic centimeters.                                                         |
+| **Power (BHP)**          | Horsepower output of the car.                                                                 |
+
 
 The dataset has been preprocessed to handle missing values, identify outliers, and engineer features for better insights. Key tasks include:
 
@@ -35,7 +54,6 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 - Analyzing relationships between features like price, mileage, engine size, and power.
 
 ## Executive Summary
-
 
 ## Insigts Deep Dive
 
@@ -53,8 +71,7 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 
 - **Volume Leaders Maintain Competitive Edge in Mass Market**: Maruti and Hyundai lead in sales with 1,211 and 1,107 units respectively, positioning themselves as reliable, value-for-money options that dominate the used car market.
 
-![](assets/car_count.png)
----
+## ![](assets/car_count.png)
 
 ### **Regional Preferences and Geographic Distribution of Car Prices**
 
@@ -62,8 +79,7 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 
 - **Market Dynamics in Major Metropolitan Areas**: Mumbai and Hyderabad control 25% of the total inventory, with distinct brand preferences—Maruti leading in Mumbai and Honda in Hyderabad, reflecting regional brand loyalties.
 
-![](image.png)
----
+## ![](image.png)
 
 ### **Fuel Type Preferences: Conventional vs. Alternative Fuels**
 
