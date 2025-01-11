@@ -10,15 +10,15 @@ The used car market is rapidly expanding, with buyers and sellers relying on dat
 
 ## Access to Resources
 
-- **Dataset:** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
-- **Python:** Jupyter Notebook for coding and visualizing analysis
-- **Excel:** For quick data exploration and validation
-- **Tableau:** For Dashboard
+- **[Dataset](https://github.com/lakshaykamat/used-cars-analysis/blob/main/data/cars.csv):** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
+- **[Python](https://github.com/lakshaykamat/used-cars-analysis/blob/main/NoteBook.ipynb):** Jupyter Notebook for coding and visualizing analysis
+- **[Excel](https://github.com/lakshaykamat/used-cars-analysis/blob/main/cars.xlsx):** For quick data exploration and validation
+- **[Tableau:](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)** For Dashboard
 
 All necessary resources are included in the repository to reproduce the analysis.
 
-![](assets/dashboard1.png)
-![](assets/dashboard2.png)
+[![](assets/dashboard1.png)](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)
+[![](assets/dashboard2.png)](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)
 ## Data Overview
 
 
