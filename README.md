@@ -121,3 +121,13 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 
 6. **Balance Price and Fuel Efficiency for Better Value**  
    Offer a pricing strategy that highlights the fuel savings of affordable cars, attracting buyers who want both performance and long-term savings.
+
+
+## Access to Resources
+
+- **[Dataset](https://github.com/lakshaykamat/used-cars-analysis/blob/main/data/cars.csv):** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
+- **[Python](https://github.com/lakshaykamat/used-cars-analysis/blob/main/NoteBook.ipynb):** Jupyter Notebook for coding and visualizing analysis
+- **[Excel](https://github.com/lakshaykamat/used-cars-analysis/blob/main/cars.xlsx):** For quick data exploration and validation
+- **[Tableau:](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)** For Dashboard
+
+All necessary resources are included in the repository to reproduce the analysis.
