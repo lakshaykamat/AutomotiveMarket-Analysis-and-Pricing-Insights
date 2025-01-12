@@ -12,7 +12,6 @@ The used car market is rapidly expanding, with buyers and sellers relying on dat
 
 - **[Dataset](https://github.com/lakshaykamat/used-cars-analysis/blob/main/data/cars.csv):** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
 - **[Python](https://github.com/lakshaykamat/used-cars-analysis/blob/main/NoteBook.ipynb):** Jupyter Notebook for coding and visualizing analysis
-- **[Excel](https://github.com/lakshaykamat/used-cars-analysis/blob/main/cars.xlsx):** For quick data exploration and validation
 - **[Tableau:](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)** For Dashboard
 
 All necessary resources are included in the repository to reproduce the analysis.
@@ -127,7 +126,6 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 
 - **[Dataset](https://github.com/lakshaykamat/used-cars-analysis/blob/main/data/cars.csv):** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
 - **[Python](https://github.com/lakshaykamat/used-cars-analysis/blob/main/NoteBook.ipynb):** Jupyter Notebook for coding and visualizing analysis
-- **[Excel](https://github.com/lakshaykamat/used-cars-analysis/blob/main/cars.xlsx):** For quick data exploration and validation
 - **[Tableau:](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)** For Dashboard
 
 All necessary resources are included in the repository to reproduce the analysis.
