@@ -56,7 +56,7 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 
 ## Executive Summary
 
-## Insigts Deep Dive
+## Insights Deep Dive
 
 ### High-Performance Vehicles Demand Premium Prices, While Economy Segment Offers Affordable Options
 
