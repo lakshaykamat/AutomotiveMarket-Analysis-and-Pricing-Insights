@@ -8,6 +8,7 @@ The used car market is rapidly expanding, with buyers and sellers relying on dat
    <img src="assets/banner.jpeg" />
 </div>
 
+> ### Analyzing 6,019 used cars to uncover pricing drivers, regional trends, and fuel efficiency insights, empowering stakeholders to leverage India's $100B used car market growth by 2030
 ## Access to Resources
 
 - **[Dataset](https://github.com/lakshaykamat/used-cars-analysis/blob/main/data/cars.csv):** A dataset of used cars, including attributes like price, mileage, engine size, power, and more.
@@ -15,11 +16,10 @@ The used car market is rapidly expanding, with buyers and sellers relying on dat
 - **[Tableau:](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)** For Dashboard
 
 All necessary resources are included in the repository to reproduce the analysis.
-
+## Tableau Interactive Dashboard Screenshots
 [![](assets/dashboard1.png)](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)
 [![](assets/dashboard2.png)](https://public.tableau.com/app/profile/lakshay.kamat/viz/UsedCarsDashboard_17366223395650/UsedCarsDashboard?publish=yes)
 ## Data Overview
-
 
 The dataset contains information about used cars, including but not limited to:
 
@@ -27,26 +27,9 @@ The dataset contains information about used cars, including but not limited to:
 
 | **Feature**              | **Description**                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Car ID**               | Unique identifier assigned to each car. (Feature Engineered)                                  |
-| **Name**                 | Name of the car.                                                                              |
-| **Location**             | Location where the car is available.                                                         |
-| **Year**                 | Year of manufacture of the car (used to calculate car age).                                   |
 | **Car Age**              | Age of the car derived from the year of manufacture. (Feature Engineered)                     |
-| **Owner Type**           | Ownership history of the car (e.g., First, Second, etc.).                                     |
-| **Fuel Type**            | Type of fuel used in the car (e.g., Petrol, Diesel, CNG, LPG, Electric).                      |
-| **Transmission**         | Type of transmission (Manual or Automatic).                                                  |
-| **Seats**                | Number of seats available in the car.                                                        |
-| **Car Type**             | Classification of cars based on features (e.g., Sedan, SUV, Hatchback). (Feature Engineered)  |
-| **Price**                | Selling price of the car (target variable).                                                  |
 | **Price per KM**         | Ratio of price to kilometers driven, representing cost efficiency. (Feature Engineered)       |
-| **Kilometers Driven**    | Total distance the car has been driven.                                                       |
-| **Mileage (kmpl)**       | Fuel efficiency in kilometers per liter for Petrol/Diesel cars. (Feature Engineered)          |
-| **Mileage (km/kg)**      | Fuel efficiency in kilometers per kilogram for CNG/LPG cars. (Feature Engineered)             |
-| **Mileage (kmpl/km/kg)** | Fuel efficiency in kilometers per liter (Petrol/Diesel) or kilometers per kilogram (CNG/LPG). |
 | **Fuel Efficiency**      | Normalized mileage combining `Mileage (kmpl)` and `Mileage (km/kg)` for consistent analysis. (Feature Engineered) |
-| **Engine Size (CC)**     | Engine capacity in cubic centimeters.                                                         |
-| **Power (BHP)**          | Horsepower output of the car.                                                                 |
-
 
 The dataset has been preprocessed to handle missing values, identify outliers, and engineer features for better insights. Key tasks include:
 
@@ -55,6 +38,19 @@ The dataset has been preprocessed to handle missing values, identify outliers, a
 - Analyzing relationships between features like price, mileage, engine size, and power.
 
 ## Executive Summary
+The used car market is a dynamic landscape where pricing, performance, and regional
+preferences intersect. This analysis of 6,019 vehicles uncovers actionable insights to guide buyers, sellers, and dealerships in navigating this competitive space. Key findings reveal a market sharply divided between premium and economy segments, with opportunities emerging in alternative fuel vehicles and regional targeting.
+- **Market Polarization:** High-performance cars (3000-4000 CC engines, 300-400 
+command a 212% price premium (₹30 lakhs vs ₹7 lakhs for economy models), signalin
+strong demand among affluent buyers. Meanwhile, economy brands like Maruti and
+Hyundai dominate sales volume with fuel-efficient, budget-friendly options (20-21 km/
+25% above market average).
+- **Regional Nuances:** Coimbatore and Bangalore lead premium sales (₹13–15 lakh average
+while Mumbai and Hyderabad account for 25% of inventory, favoring local brands like
+Maruti and Honda.
+- **Fuel Efficiency Trade-offs:** Luxury brands (e.g., Lamborghini) prioritize power over efficiency (6–8 km/l vs. economy cars’ 20+ km/l), but alternative fuel vehicles 
+untapped potential with 50% higher efficiency than conventional options.
+- **Strategic Opportunities:** Balancing performance with affordability, targeting high-income cities, and promoting eco-friendly vehicles could unlock growth in a market increasingly driven by value-conscious and environmentally aware buyers.
 
 ## Insights Deep Dive
 
